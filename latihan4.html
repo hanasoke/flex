@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid | Autofit & Auto Fill</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ddd;
+        }
+
+        .container {
+            width: 60%;
+            margin: 50px auto;
+            display: grid;
+            grid-template-columns: 1fr minmax(200px, 300px) 1fr;
+        }
+
+        .item {
+            background-color: rgb(138, 209, 254);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item:nth-child(even) {
+            background-color: rgb(255, 142, 142);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <item class="item">sandhika</item>
+        <item class="item">2</item>
+        <item class="item">webprogrammingunpas</item>
+        <!-- <item class="item">4</item>
+        <item class="item">5</item>
+        <item class="item">6</item>
+        <item class="item">7</item>
+        <item class="item">8</item>
+        <item class="item">9</item>
+        <item class="item">10</item> -->
+    </div>
+</body>
+
+</html>

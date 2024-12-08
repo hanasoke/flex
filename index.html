@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Try Flex</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <h1>Hanas Bayu Pratama</h1>
+
+        <div class="d-flex text-center">
+            <div class="p-2 flex-fill bg-success text-white">Flex item</div>
+            <div class="p-2 flex-fill bg-info">Flex item</div>
+            <div class="p-2 flex-fill bg-dark text-white">Flex item</div>
+        </div>
+
+        <div class="d-flex">
+            <div class="p-2 flex-grow-1 bg-warning">Flex item</div>
+            <div class="p-2 bg-success">Flex item</div>
+            <div class="p-2 bg-danger">Third flex item</div>
+        </div>
+
+        <div class="d-flex">
+            <div class="p-2 w-100 bg-primary text-white text-center">Flex item</div>
+            <div class="p-2 flex-shrink-1 bg-info">Flex item</div>
+        </div>
+
+        <div class="d-flex my-3">
+            <div class="p-2 bg-success">Flex item</div>
+            <div class="p-2 bg-primary">Flex item</div>
+            <div class="p-2 bg-warning">Flex item</div>
+        </div>
+        <div class="d-flex my-3">
+            <div class="me-auto p-2 bg-dark text-white">Flex item</div>
+            <div class="p-2 bg-info">Flex item</div>
+            <div class="p-2 bg-success">Flex item</div>
+        </div>
+        <div class="d-flex my-3">
+            <div class="p-2 bg-danger">Flex item</div>
+            <div class="p-2 bg-success">Flex item</div>
+            <div class="ms-auto p-2 bg-info">Flex item</div>
+        </div>
+
+        <div class="d-flex align-items-start flex-column bg-info mb-3" style="height: 200px;">
+            <div class="mb-auto p-2 bg-warning">Flex item</div>
+            <div class="p-2 bg-dark text-white">Flex item</div>
+            <div class="p-2 bg-primary">Flex item</div>
+        </div>
+
+        <div class="d-flex align-items-end flex-column mb-3 bg-success" style="height: 200px;">
+            <div class="p-2 bg-info">Flex item</div>
+            <div class="p-2 bg-primary">Flex item</div>
+            <div class="mt-auto p-2 bg-danger">Flex item</div>
+        </div>
+
+        <div class="d-flex flex-nowrap mb-3 bg-success text-white">
+            <div class="p-2 bg-info">Flex item</div>
+            <div class="p-2 bg-primary">Flex item</div>
+            <div class="p-2 bg-danger">Flex item</div>
+            <div class="p-2 bg-warning">Flex item</div>
+            <div class="p-2 bg-dark ms-auto">Flex item</div>
+        </div>
+
+        <div class="d-flex flex-wrap mb-3 bg-info text-white">
+            <div class="p-2 bg-primary bg-gradient">Flex Item 1</div>
+            <div class="p-2 bg-success bg-gradient">Flex Item 2</div>
+            <div class="p-2 bg-dark">Flex Item 3</div>
+            <div class="p-2 bg-warning bg-gradient">Flex Item 4</div>
+            <div class="p-2 bg-secondary bg-gradient">Flex Item 5</div>
+            <div class="p-2 bg-success-subtle text-dark">Flex Item 6</div>
+            <div class="p-2 bg-danger-subtle text-dark">Flex Item 7</div>
+            <div class="p-2 bg-light text-dark">Flex Item 8</div>
+            <div class="p-2 bg-body-secondary text-dark"">Flex Item 9</div>
+            <div class="p-2 bg-danger bg-gradient">Flex Item 10</div>
+            <div class="p-2 bg-info bg-gradient">Flex Item 11</div>
+            <div class="p-2 bg-dark bg-gradient">Flex Item 12</div>
+        </div>
+
+        <div class="d-flex flex-wrap-reverse bg-dark bg-gradient mb-3">
+            <div class="p-2 bg-info bg-gradient">Flex Item 1</div>
+            <div class="p-2 bg-warning bg-gradient">Flex Item 2</div>
+            <div class="p-2 bg-light bg-gradient">Flex Item 3</div>
+            <div class="p-2 bg-success bg-gradient text-white">Flex Item 4</div>
+            <div class="p-2 bg-secondary bg-gradient">Flex Item 5</div>
+            <div class="p-2 bg-dark bg-gradient text-white">Flex Item 6</div>
+            <div class="p-2 bg-info bg-gradient">Flex Item 7</div>
+            <div class="p-2 bg-light bg-gradient">Flex Item 8</div>
+            <div class="p-2 bg-primary-subtle">Flex Item 9</div>
+            <div class="p-2 bg-success bg-gradient text-white">Flex Item 10</div>
+            <div class="p-2 bg-warning bg-gradient">Flex Item 11</div>
+            <div class="p-2 bg-danger bg-gradient text-white">Flex Item 12</div>
+            <div class="p-2 bg-info bg-gradient">Flex Item 13</div>
+            <div class="p-2 bg-light bg-gradient">Flex Item 14</div>
+            <div class="p-2  bg-gradient text-white">Flex Item 15</div>
+        </div>
+
+        <div class="d-flex flex-nowrap bg-danger text-white mb-3">
+            <div class="order-3 p-2 bg-primary">First Flex Item</div>
+            <div class="order-2 p-2 bg-success">Second Flex Item</div>
+            <div class="order-1 p-2 bg-warning">Third Flex Item</div>
+        </div>
+
+        <div class="d-flex bg-info my-3">
+            <div class="flex-shrink-0">
+                <img src="img/1.jpg" alt="Laptop" width="200">
+            </div>
+            <div class="flex-grow-1 ms-3">
+                This is some content from a media component. You can replace this with any content and adjust it as needed.
+            </div>
+        </div>
+
+        <div class="d-flex align-items-center bg-warning my-3">
+            <div class="flex-shrink-0">
+                <img src="img/2.jpg" alt="Gunung" width="200">
+            </div>
+            <div class="flex-grow-1 ms-3">
+                This is some content from a media component. You can replace this with any content and adjust it as needed.
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    </body>
+</html>
